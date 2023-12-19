@@ -2,7 +2,7 @@
 
 /**
  * bubble_sort - Sorts an array of integers in ascending order using
- *the Bubble sort algorithm.
+ * the Bubble sort algorithm.
  * @array: The array to be sorted.
  * @size: Number of elements in the array.
  *
@@ -12,7 +12,7 @@ void bubble_sort(int *array, size_t size)
 	size_t i, j;
 	int temp;
 
-	if (!array || !size < 2)
+	if (!array || !size)
 		return;
 	i = 0;
 	while (i < size)
